@@ -1,0 +1,213 @@
+:root {
+    --accent-color: #2196F3;
+    --primari-text-color-teme-dark: #ffffff;
+    --secondary-text-color-teme-dark: rgba(255, 255, 255, 0.6);
+    --primari-text-color-teme-light: #757575;
+    --secondary-text-color-teme-light: #212121;
+    --fon-teme-dark:   #2F303A;
+    --fon-teme-light: #F5F5F5;
+    --color-logo-header: #000;
+    --color-logo-footer: #fff;
+    --color-btn-active: #188CE8;
+    --color-btn: #F5F4FA;
+    --color-boody: #ffffff;
+    --normal-font-weding: font-weight: 400;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-boody);
+    color: var(--primari-text-color-teme-light);
+    font-weight: var(--normal-font-weding);
+    
+}
+/* HEADER */
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color) ;
+    text-decoration: none;
+
+}
+
+
+.logo-beginning{
+    color: var(--color-logo-header) ;
+}
+
+.list{
+    list-style: none;
+    
+   
+}
+.item{
+    text-decoration: none;
+
+}
+
+.list-nav, .list-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.list-nav-item {
+    color: var(--secondary-text-color-teme-light);
+}
+.list-contacts-item{
+    color: var(--primari-text-color-teme-light);
+}
+
+ .list-nav-item:hover ,
+ .list-nav-item:focus  {
+    color: var(--accent-color);
+}
+.list-contacts-item:hover,
+.list-contacts-item:focus{
+    color: var(--accent-color);
+
+}
+.list-nav .item.current{
+    color: var(--accent-color);
+}
+/* HERO */
+.hero{
+    background-color: var(--fon-teme-dark);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primari-text-color-teme-dark);
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-light);
+}
+.hero-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--primari-text-color-teme-dark);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    
+
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--color-btn-active);
+}
+/* ADVANTAGES */
+
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+.advantage{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color-teme-light);
+   
+}
+.advantage-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+/* TEAM */
+.team-worker{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-light);
+}
+.team-jobs{
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+/* FOOTER */
+address{
+    font-style: normal;
+}
+.end{
+    background-color: var(--fon-teme-dark);
+}
+.logo-end{
+    color: var(--color-logo-footer);
+}
+.end-list-item{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-dark);
+}
+.end-list-item:hover,
+.end-list-item:focus{
+    color: var(--accent-color);
+}
+.maps{
+    color: var(--primari-text-color-teme-dark);
+
+}
+/* PORTFOLIO */
+
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--color-btn);
+    color: var(--secondary-text-color-teme-light);
+    border-color: transparent;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--accent-color);
+    color:var(--primari-text-color-teme-dark);
+
+}
+.project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-teme-light);
+}
+.project-text{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
